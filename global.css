@@ -1,0 +1,39 @@
+/*DECLARAÇÃO DAS VARIÁVEIS DE FONTE*/
+@font-face {
+    font-family: "sacramento";
+    src: url(./font/Sacramento.ttf);
+}
+
+@font-face {
+    font-family: "montserrat";
+    src: url(./font/Montserrat.ttf);
+}
+
+@font-face {
+    font-family: "pinyon";
+    src: url(./font/Pinyon.ttf);
+}
+
+@font-face {
+    font-family: "oswald";
+    src: url(./font/Oswald.ttf);
+}
+
+@font-face {
+    font-family: "yeseva";
+    src: url(./font/Yeseva.ttf);
+}
+
+/*DECLARAÇÃO DAS VARIÁVEIS DE CORES*/
+:root {
+    --primary-color: blue;
+    --second-color: green;
+  }
+
+/*RETIRANDO O MARGIN E PADDING PADRÃO*/
+html,
+body,
+body * {
+    margin: 0;
+    padding: 0;
+}
