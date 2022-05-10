@@ -26,14 +26,24 @@
 
 /*DECLARAÇÃO DAS VARIÁVEIS DE CORES*/
 :root {
-    --primary-color: blue;
-    --second-color: green;
-  }
+    --primary-color: #247ba0;
+    --second-color: #70c1b3;
+    --tertiary-color: #b2dbbf;
+    --background: #f3ffbd;
+    --color-spotlight: #ff1654;
+
+    /*--primary-color: #eae8ff;
+    --second-color: #d8d5db;
+    --tertiary-color: #adacb5;
+    --background: #2d3142;
+    --color-spotlight: #b0d7ff;*/
+}
 
 /*RETIRANDO O MARGIN E PADDING PADRÃO*/
 html,
-body,
-body * {
+body {
     margin: 0;
     padding: 0;
+    font-family: oswald;
+    background-color: var(--background);
 }
