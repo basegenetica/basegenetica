@@ -45,5 +45,9 @@ body {
     margin: 0;
     padding: 0;
     font-family: oswald;
-    background-color: var(--background);
+    background-image: url(./img/fundo1.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
